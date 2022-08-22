@@ -1,0 +1,53 @@
+.wrap h1 {
+  margin-bottom: 2rem;
+}
+
+/* LANDING PAGE */
+.autolink-box {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  background-color: #d2d2d2;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.autolink-box__keyword {
+  width: 30%;
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+.autolink-box__link {
+  width: 60%;
+  padding-right: 1rem;
+}
+.autolink-box__delete {
+  width: 10%;
+  color: red;
+  cursor: pointer;
+}
+
+/* ============================= */
+/* ADD KEYWORD PAGE */
+
+.new-keyword-box {
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.new-keyword-box__input:first-child {
+  width: 30%;
+  margin-right: 1rem;
+}
+.new-keyword-box__input:last-child {
+  width: 70%;
+}
+
+.new-keyword-box__input input {
+  width: 100%;
+}
+
+.hide-form {
+  visibility: hidden;
+  opacity: 0;
+}
